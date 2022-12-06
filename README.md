@@ -100,3 +100,8 @@
 #### Lo primero será entrar a Mysql como root. En mi caso la contraseña se asignó durante la instalación de *mysl-server*. Tras acceder a mysql, creamos una base de datos para *Prestashop*. Creamos un nuevo usuario para la base de datos y le damos todos los privilegios. Por último recargamos los privilegios y ya podemos salir de Mysql.
 #
 ![](images/20.png)
+#
+#### Ahora editamos el archivo */etc/mysql/mysql.conf.d/mysqld.cnf* y buscamos la dirección de enlace (bind-address) y la cambiamos por la dirección ip del servidor MySql.
+#
+![](images/21.png)
+#
